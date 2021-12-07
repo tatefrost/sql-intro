@@ -7,5 +7,5 @@ SELECT AVG(milliseconds) FROM track
 GROUP BY album_id ORDER BY AVG;
 
 -- problem 3
-SELECT count(*) FROM album WHERE artist_id IN (8, 22) GROUP BY artist_id
+SELECT count(*) artist_id FROM album WHERE artist_id IN (8, 22) GROUP BY artist_id
 
